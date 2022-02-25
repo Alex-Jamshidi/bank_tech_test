@@ -10,10 +10,5 @@ describe Transaction do
       expect(transaction.date).to be("01/01/2000")
       expect(transaction.balance).to be(100)
     end
-
-    it 'creating a transaction without a date, defaults to today' do
-      transaction = Transaction.new(amount: 50, balance: 100)
-    expect(transaction.date).to eq(Date.today.strftime("%d/%m/%Y").to_s)
-    end
   end
 end
