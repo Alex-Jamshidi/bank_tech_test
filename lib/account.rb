@@ -2,7 +2,7 @@
 
 require_relative 'transaction'
 require_relative 'exception'
-require 'message'
+require_relative 'message'
 require 'date'
 
 class Account
