@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'exception'
 
 class Account
@@ -19,8 +21,6 @@ class Account
   private
 
   def validate_withdrawal(amount)
-    Exception.insufficient_funds unless amount < @balance 
+    Exception.insufficient_funds unless amount < @balance
   end
-
-
 end

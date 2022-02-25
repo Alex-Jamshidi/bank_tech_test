@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'account'
 
 describe Account do
@@ -20,7 +22,7 @@ describe Account do
     it 'withdrawing 50 from account with 0 balance should raise error' do
       account = Account.new
       expect(account.balance).to be(0)
-      expect { account.withdraw(50) }.to raise_error("Insufficient Funds - Please check your account balance")
+      expect { account.withdraw(50) }.to raise_error('Insufficient Funds - Please check your account balance')
     end
 
     it 'withdrawing 50 from account with 200 balance should decrease balance by 50, to 150' do
@@ -30,6 +32,4 @@ describe Account do
       expect(account.balance).to be(150)
     end
   end
-
 end
-
