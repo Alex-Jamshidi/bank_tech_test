@@ -1,0 +1,104 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/spec/account_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          1,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          1,
+          1,
+          2,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/lib/account.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/lib/exception.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/spec/exception_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          2,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/spec/message_spec.rb": {
+        "lines": [
+
+        ]
+      }
+    },
+    "timestamp": 1645807545
+  }
+}
