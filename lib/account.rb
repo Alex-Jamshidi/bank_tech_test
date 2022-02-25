@@ -8,7 +8,7 @@ require 'date'
 class Account
   attr_reader :balance, :history
 
-  @@todays_date = Date.today.strftime("%d/%m/%Y")
+  @@todays_date = Date.today.strftime('%d/%m/%Y')
 
   def initialize
     @balance = 0
@@ -29,11 +29,13 @@ class Account
 
   def print_statement
     Message.statement_header
-    @history.reverse.each { |transaction|
-    credit = check_credit(amount: transaction.amount)
-    debit = check_debit(amount: transaction.amount)
-    Message.statement_entry(date: transaction.date, credit: credit, debit: debit, balance: '%.2f' % transaction.balance)
-    }
+    @history.reverse.each do |transaction|
+      credit = check_credit(amount: transaction.amount)
+      debit = check_debit(amount: transaction.amount)
+
+      Message.statement_entry(date: transaction.date, credit: credit, debit: debit,
+                              balance: '%.2f' % transaction.balance)
+    end
   end
 
   private
@@ -51,10 +53,10 @@ class Account
   end
 
   def check_credit(amount:)
-    '%.2f' % amount unless amount < 0
+    '%.2f' % amount unless amount.negative?
   end
 
   def check_debit(amount:)
-    '%.2f' % -amount unless amount > 0
+    '%.2f' % -amount unless amount.positive?
   end
 end
