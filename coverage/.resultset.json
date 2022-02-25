@@ -12,6 +12,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null,
@@ -50,6 +51,7 @@
           1,
           null,
           1,
+          4,
           4,
           null,
           null,
@@ -102,8 +104,48 @@
         "lines": [
 
         ]
+      },
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/spec/transaction_spec.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alexanderjamshidi/Documents/Projects/Tech_Tests/bank_tech_test/lib/transaction.rb": {
+        "lines": [
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1645807711
+    "timestamp": 1645810186
   }
 }
